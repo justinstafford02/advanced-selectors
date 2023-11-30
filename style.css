@@ -84,6 +84,7 @@ a[href="#"] {
     color: red;
     text-decoration: none;
 }
+
 /* Attribute Selector - testing future attribute: submit  */
 input[type="submit"] {
     background-color: green;
@@ -94,7 +95,7 @@ input[type="submit"] {
 nav ul li {
     padding: 5px;
     margin-right: 10px;
-    /* border: 2px solid red; /*  testing */
+    /*border: 2px solid red;   testing */
 }
 
 /* Universal Selector -  all elements */
@@ -120,6 +121,5 @@ footer a {
 /* Next-Sibling Combinators - Target any <p> that comes after <h2> */
 h2+p {
     margin-top: 10;
-    font-size: 15px;  /* tested with size 50 */
+    font-size: 35px;  /* tested with size 50 */
 }
-
