@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, nav, article, section, aside, footer {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+header {
+    background-color: #f8f8f8;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+article {
+    background-color: #fff;
+}
+
+aside {
+    /* float: right; */
+    width: 20%;
+}
+
+footer {
+    clear: both;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    flex-grow: 1;
+    background-color: #fff;
+    margin-right: 20px;
+
+}
+
+aside {
+    flex-basis: 20%;
+
+}
+/* --------------------------------changes based on the following
+attribute selectors 
+nesting selectors 
+universal selectors 
+child combinators 
+descendent combinators 
+next-sibling combinators,
+selector list,
+subsequent-sibling 
+combinators:active,
+:first-child,
+:first-of-type,
+:focus,
+:last-child,
+:last-of-type,
+:nth-child,
+::after,
+::before
+
+/* Applying attribute to target all my links that point to '#'  */
+a[href="#"] {
+    color: red;
+    text-decoration: none;
+}
+/* Styling inputs with a specific type of attribute, like submit  */
+input[type="submit"] {
+    background-color: green;
+    color: white;
+}
+
+
