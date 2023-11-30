@@ -4,7 +4,7 @@ body {
 
 header, nav, article, section, aside, footer {
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #ddd;
 }
 
@@ -53,6 +53,13 @@ aside {
     flex-basis: 20%;
 
 }
+
+.sous-vide-image {
+    width: 250px;
+    height: auto;
+}
+
+
 /* --------------------------------changes based on the following
 attribute selectors 
 nesting selectors 
@@ -72,15 +79,25 @@ combinators:active,
 ::after,
 ::before
 
-/* Applying attribute to target all my links that point to '#'  */
+/* Attribute Selector to target all my links that point to '#'  */
 a[href="#"] {
     color: red;
     text-decoration: none;
 }
-/* Styling inputs with a specific type of attribute, like submit  */
+/* Attribute Selector - testing future attribute: submit  */
 input[type="submit"] {
     background-color: green;
     color: white;
 }
 
+/* Nesting Selector - ul li in navigation */
+nav ul li {
+    padding: 5px;
+    margin-right: 10px;
+}
 
+/* Universal Selector -  all elements */
+* {
+    box-sizing: border-box;
+    /* border: 2px solid red;   testing */
+}
