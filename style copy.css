@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header, nav, article, section, aside, footer {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+header {
+    background-color: #f8f8f8;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+article {
+    background-color: #fff;
+}
+
+aside {
+    /* float: right; */
+    width: 20%;
+}
+
+footer {
+    clear: both;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    flex-grow: 1;
+    background-color: #fff;
+    margin-right: 20px;
+
+}
+
+aside {
+    flex-basis: 20%;
+
+}
+
+
+ /*Applying attribute to target all my links that point to '#'  */
+a[href="#"] {
+    color: red;
+    text-decoration: none;
+}
+
+ /* Styling inputs with a specific type of attribute, like submit  
+TODO: add submit button to index.html 
+
+ /* Applying nesting selectors */
+ 
+
+
+ /* Applying universal selectors */
+ 
+ /* Applying child combinators */
+ 
+ /* Applying descendent combinators */
+ 
+ /* Applying next-sibling combinators */
+ 
+ /* Applying selector list */
+ 
+ /* Applying subsequent-sibling combinators */
+ 
+ /* Applying :active */
+ 
+ /* Applying :first-child */
+ 
+ /* Applying :first-of-type */
+ 
+ /* Applying :focus */
+ 
+ /* Applying :last-child */
+ 
+ /* Applying :last-of-type */
+ 
+ /* Applying :nth-child */
+ 
+ /* Applying ::after */
+ 
+ /* Applying ::before */
+ 
+ /* Applying :checked */
+ 
+ /* Applying :disabled */
+ 
+ /* Applying :empty */
+ 
+ /* Applying :enabled */
+ 
+ /* Applying :first-line */
+ 
+ /* Applying :first-letter */
+ 
+
+
+
+
