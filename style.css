@@ -90,10 +90,11 @@ input[type="submit"] {
     color: white;
 }
 
-/* Nesting Selector - ul li in navigation */
+/* Nesting Selector - Target ul li in navigation */
 nav ul li {
     padding: 5px;
     margin-right: 10px;
+    /* border: 2px solid red; /*  testing */
 }
 
 /* Universal Selector -  all elements */
@@ -101,3 +102,24 @@ nav ul li {
     box-sizing: border-box;
     /* border: 2px solid red;   testing */
 }
+
+/* Child Combinators  - Target is direct <li> children of <ul> within <nav> */
+nav>ul>li {
+    font-weight: auto;  /* tested with Bold */
+}
+
+/* Descendant Combonators - 
+The next-sibling combinator (+) selects an element that is immediately preceded by a specific element.
+
+Target any <a> tags within <footer> */
+footer a {
+    font-size: 20px;
+    color: blue;
+}
+
+/* Next-Sibling Combinators - Target any <p> that comes after <h2> */
+h2+p {
+    margin-top: 10;
+    font-size: 15px;  /* tested with size 50 */
+}
+
