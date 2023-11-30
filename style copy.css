@@ -57,15 +57,19 @@ aside {
 
  /*Applying attribute to target all my links that point to '#'  */
 a[href="#"] {
-    color: red;
+    color: rgb(0, 163, 87);
     text-decoration: none;
-}
+    }
 
  /* Styling inputs with a specific type of attribute, like submit  
 TODO: add submit button to index.html 
 
  /* Applying nesting selectors */
- 
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+    padding: 20px;
+}
 
 
  /* Applying universal selectors */
